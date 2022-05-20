@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+$rubik: 'Rubik', sans-serif;
+
+body {
+  font-family: $rubik;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 1rem;
+}
+
+.name {
+  font-size: 2rem;
+}

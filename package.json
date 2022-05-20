@@ -1,0 +1,12 @@
+{
+  "name": "time-tracking-dashboard-main",
+  "version": "1.0.0",
+  "description": "A time tracking dashboard app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch sass/main.scss styles/style.css"
+  },
+  "author": "Tim Martin",
+  "license": "MIT"
+}
