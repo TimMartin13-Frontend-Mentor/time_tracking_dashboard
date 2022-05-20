@@ -1,0 +1,60 @@
+// Abstracts
+@use "./../abstracts/__abstracts-dir" as ab;
+
+.profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: ab.$blue;
+  z-index: 2;
+
+  img {
+    border-radius: 100%;
+    margin: 2rem 1rem 2rem 2rem;
+    border: 3px solid ab.$white;
+    width: 4rem;
+  } 
+}
+
+.profile-box {
+  height: 133px;
+  width: auto;
+  border-radius: 1rem;
+}
+
+.title-name {
+  .title {
+    color: ab.$pale-blue;
+    padding-bottom: 0.25rem;
+  }
+
+  .name {
+    color: ab.$white;
+  }
+}
+
+.time-frame-box {
+  display: flex;
+  margin-top: -4.375rem;
+  background-color: ab.$very-dark-blue;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 1;
+}
+
+.time-frame {
+  justify-content: space-around;
+  margin: 1.3rem 0;
+  
+  a {
+    padding: 1.5rem;
+    width: 33%;
+    color: ab.$desaturated-blue;
+    text-decoration: none;
+    
+    &:hover {
+      color: ab.$white;
+      transition: 0.3s;
+    }
+  }
+}
