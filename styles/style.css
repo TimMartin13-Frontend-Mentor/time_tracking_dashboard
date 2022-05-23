@@ -18,6 +18,20 @@ body {
   font-size: 1.1rem;
 }
 
+.activity {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.cur-hours {
+  font-size: 1.9rem;
+  font-weight: 300;
+}
+
+.prev-hours {
+  font-weight: 400;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,13 +39,13 @@ body {
 }
 
 .container {
-  margin: 1.5rem;
+  margin: 5.0625rem 1.5rem;
   display: flex;
   flex-direction: column;
 }
 
-.card-container {
-  margin: 2rem 0;
+.activity-card {
+  margin-top: 1.5rem;
 }
 
 body {
@@ -50,6 +64,126 @@ body {
 
 .time-frame a {
   font-size: 1.1rem;
+}
+
+.activity {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.cur-hours {
+  font-size: 1.9rem;
+  font-weight: 300;
+}
+
+.prev-hours {
+  font-weight: 400;
+}
+
+.box-size {
+  width: auto;
+  height: 7.625rem;
+  border-radius: 1rem;
+}
+
+.accent-box {
+  display: flex;
+  margin-bottom: -5.25rem;
+  overflow: hidden;
+}
+
+.accent-box img {
+  display: block;
+  width: 5rem;
+}
+
+.icon-work {
+  margin: -0.7rem 1rem auto auto;
+}
+
+.icon-play {
+  margin: -0.4rem 1rem auto auto;
+}
+
+.icon-study {
+  margin: -0.5rem 1rem auto auto;
+}
+
+.icon-exercise {
+  margin: 0rem 1rem auto auto;
+}
+
+img.icon-social {
+  margin: -1rem 1rem auto auto;
+  width: 4.8rem;
+}
+
+img.icon-self-care {
+  margin: -0.8rem 1rem auto auto;
+  width: 4.3rem;
+}
+
+.info-box {
+  position: relative;
+}
+
+.color-work {
+  background-color: hsl(15deg, 100%, 70%);
+}
+
+.color-play {
+  background-color: hsl(195deg, 74%, 62%);
+}
+
+.color-study {
+  background-color: hsl(348deg, 100%, 68%);
+}
+
+.color-exercise {
+  background-color: hsl(145deg, 58%, 55%);
+}
+
+.color-social {
+  background-color: hsl(264deg, 64%, 52%);
+}
+
+.color-self-care {
+  background-color: hsl(43deg, 84%, 65%);
+}
+
+.color-main {
+  background-color: hsl(235deg, 46%, 20%);
+}
+
+.color-main:hover {
+  background-color: hsl(235deg, 45%, 61%);
+  transition: 0.3s;
+}
+
+.activity-container {
+  display: flex;
+  padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-container img {
+  height: 100%;
+}
+
+.activity, .cur-hours {
+  color: hsl(0deg, 100%, 100%);
+}
+
+.hours-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.prev-hours {
+  color: hsl(236deg, 100%, 87%);
 }
 
 .profile {
@@ -85,7 +219,7 @@ body {
 .time-frame-box {
   display: flex;
   margin-top: -4.375rem;
-  background-color: hsl(226deg, 43%, 10%);
+  background-color: hsl(235deg, 46%, 20%);
   align-items: flex-end;
   justify-content: center;
   z-index: 1;
@@ -106,6 +240,14 @@ body {
 .time-frame a:hover {
   color: hsl(0deg, 100%, 100%);
   transition: 0.3s;
+}
+
+.time-frame .selected {
+  color: hsl(0deg, 100%, 100%);
+}
+
+body {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

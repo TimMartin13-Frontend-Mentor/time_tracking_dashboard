@@ -1,0 +1,109 @@
+// Abstracts
+@use "./../abstracts/__abstracts-dir" as ab;
+
+.box-size {
+  width: auto;
+  height: 7.625rem;
+  border-radius: 1rem;
+}
+
+.accent-box {
+  display: flex;
+  margin-bottom: -5.25rem;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 5rem;
+  }
+}
+
+.icon-work {
+  margin: -0.7rem 1rem auto auto;
+}
+
+.icon-play {
+  margin: -0.4rem 1rem auto auto;
+}
+
+.icon-study {
+  margin: -0.5rem 1rem auto auto;
+}
+
+.icon-exercise {
+  margin: 0rem 1rem auto auto;
+}
+
+img.icon-social {
+  margin: -1rem 1rem auto auto;
+  width: 4.8rem;
+}
+
+img.icon-self-care {
+  margin: -0.8rem 1rem auto auto;
+  width: 4.3rem;
+}
+
+.info-box {
+  position: relative;
+}
+
+.color-work {
+  background-color: ab.$light-red-work;
+}
+
+.color-play {
+  background-color: ab.$soft-blue;
+}
+
+.color-study {
+  background-color: ab.$light-red-study;
+}
+
+.color-exercise {
+  background-color: ab.$lime-green;
+}
+
+.color-social {
+  background-color: ab.$violet;
+}
+
+.color-self-care {
+  background-color: ab.$soft-orange;
+}
+
+.color-main {
+  background-color: ab.$dark-blue;
+
+  &:hover {
+    background-color: ab.$desaturated-blue;
+    transition: 0.3s;
+  }
+}
+
+.activity-container {
+  display: flex;
+  padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  
+  img {
+    height: 100%;
+  }
+}
+
+.activity, .cur-hours {
+  color: ab.$white;
+}
+
+.hours-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.prev-hours {
+  color: ab.$pale-blue;
+}
+

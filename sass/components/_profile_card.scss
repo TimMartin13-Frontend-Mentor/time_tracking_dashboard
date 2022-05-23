@@ -36,7 +36,7 @@
 .time-frame-box {
   display: flex;
   margin-top: -4.375rem;
-  background-color: ab.$very-dark-blue;
+  background-color: ab.$dark-blue;
   align-items: flex-end;
   justify-content: center;
   z-index: 1;
@@ -56,5 +56,9 @@
       color: ab.$white;
       transition: 0.3s;
     }
+  }
+  
+  .selected {
+    color: ab.$white;
   }
 }
