@@ -32,10 +32,23 @@ body {
   font-weight: 400;
 }
 
+@media (min-width: 650px) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .cur-hours {
+    font-size: 3.5rem;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  min-width: 280px;
 }
 
 .container {
@@ -44,10 +57,38 @@ body {
   flex-direction: column;
 }
 
-.activity-card {
-  margin-top: 1.5rem;
+.card-container {
+  padding-top: 1.5rem;
 }
 
+.activity-card {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 650px) {
+  .container {
+    margin: 10rem auto 0 auto;
+    width: 80%;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile-card {
+    float: left;
+    max-height: 518px;
+  }
+
+  .card-container {
+    padding-top: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .activity-card {
+    margin: 0 0 1.875rem 1.875rem;
+  }
+}
 body {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
@@ -80,6 +121,15 @@ body {
   font-weight: 400;
 }
 
+@media (min-width: 650px) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .cur-hours {
+    font-size: 3.5rem;
+  }
+}
 .box-size {
   width: auto;
   height: 7.625rem;
@@ -162,7 +212,7 @@ img.icon-self-care {
 
 .activity-container {
   display: flex;
-  padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+  padding: 1.75rem 1.75rem 0.25rem 1.75rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -182,10 +232,36 @@ img.icon-self-care {
   padding: 0 1.5rem;
 }
 
+.cur-hours {
+  padding: 0.25rem;
+}
+
 .prev-hours {
   color: hsl(236deg, 100%, 87%);
 }
 
+@media (min-width: 650px) {
+  .box-size {
+    width: 255px;
+    height: 199px;
+    border-radius: 1rem;
+  }
+
+  .accent-box {
+    margin-bottom: -9.625rem;
+  }
+
+  .hours-container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .cur-hours {
+    padding: 0 0 0.6rem 0;
+  }
+}
 .profile {
   position: relative;
   display: flex;
@@ -218,20 +294,20 @@ img.icon-self-care {
 
 .time-frame-box {
   display: flex;
-  margin-top: -4.375rem;
-  background-color: hsl(235deg, 46%, 20%);
   align-items: flex-end;
-  justify-content: center;
+  margin-top: -1.375rem;
+  background-color: hsl(235deg, 46%, 20%);
   z-index: 1;
 }
 
 .time-frame {
-  justify-content: space-around;
-  margin: 1.3rem 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0.6rem 1rem;
 }
 
 .time-frame a {
-  padding: 1.5rem;
+  padding: 0.3rem;
   width: 33%;
   color: hsl(235deg, 45%, 61%);
   text-decoration: none;
@@ -246,6 +322,52 @@ img.icon-self-care {
   color: hsl(0deg, 100%, 100%);
 }
 
+@media (min-width: 375px) {
+  div.time-frame-box {
+    margin-top: -4.375rem;
+    justify-content: center;
+  }
+
+  .time-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .time-frame a {
+    padding: 0.7rem 1.5rem;
+  }
+}
+@media (min-width: 650px) {
+  .profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile img {
+    margin: 2.3rem 1.7rem;
+    width: 5.2rem;
+  }
+
+  .profile-box {
+    height: 354px;
+    width: 255px;
+  }
+
+  .title-name {
+    margin: 0 2.2rem;
+  }
+
+  div.time-frame-box {
+    margin-top: -11.875rem;
+    justify-content: flex-start;
+  }
+
+  .time-frame {
+    flex-direction: column;
+    margin: 1.4rem 0.7rem;
+  }
+}
 body {
   background-color: black;
 }

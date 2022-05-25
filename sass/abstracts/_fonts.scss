@@ -35,3 +35,13 @@ body {
 .prev-hours {
   font-weight: 400;
 }
+
+@media (min-width: 650px) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .cur-hours {
+    font-size: 3.5rem;
+  }
+}
