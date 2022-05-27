@@ -32,7 +32,7 @@ body {
   font-weight: 400;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 870px) {
   .name {
     font-size: 2.5rem;
   }
@@ -65,10 +65,10 @@ body {
   margin-bottom: 1.5rem;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 870px) {
   .container {
     margin: 10rem auto 0 auto;
-    width: 80%;
+    width: 95%;
     max-width: 1150px;
     display: flex;
     flex-direction: row;
@@ -121,7 +121,7 @@ body {
   font-weight: 400;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 870px) {
   .name {
     font-size: 2.5rem;
   }
@@ -240,7 +240,7 @@ img.icon-self-care {
   color: hsl(236deg, 100%, 87%);
 }
 
-@media (min-width: 650px) {
+@media (min-width: 870px) {
   .box-size {
     width: 255px;
     height: 199px;
@@ -338,7 +338,7 @@ img.icon-self-care {
     padding: 0.7rem 1.5rem;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 870px) {
   .profile {
     flex-direction: column;
     align-items: flex-start;
