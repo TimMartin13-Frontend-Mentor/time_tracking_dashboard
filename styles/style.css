@@ -29,6 +29,7 @@ body {
 }
 
 .prev-hours {
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -118,6 +119,7 @@ body {
 }
 
 .prev-hours {
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -178,35 +180,35 @@ img.icon-self-care {
 }
 
 .color-work {
-  background-color: hsl(15deg, 100%, 70%);
+  background-color: #ff8c66;
 }
 
 .color-play {
-  background-color: hsl(195deg, 74%, 62%);
+  background-color: #56c2e6;
 }
 
 .color-study {
-  background-color: hsl(348deg, 100%, 68%);
+  background-color: #ff5c7c;
 }
 
 .color-exercise {
-  background-color: hsl(145deg, 58%, 55%);
+  background-color: #4acf81;
 }
 
 .color-social {
-  background-color: hsl(264deg, 64%, 52%);
+  background-color: #7536d3;
 }
 
 .color-self-care {
-  background-color: hsl(43deg, 84%, 65%);
+  background-color: #f1c65b;
 }
 
 .color-main {
-  background-color: hsl(235deg, 46%, 20%);
+  background-color: #1c1f4a;
 }
 
 .color-main:hover {
-  background-color: hsl(235deg, 45%, 61%);
+  background-color: #6f76c8;
   transition: 0.3s;
 }
 
@@ -222,7 +224,7 @@ img.icon-self-care {
 }
 
 .activity, .cur-hours {
-  color: hsl(0deg, 100%, 100%);
+  color: white;
 }
 
 .hours-container {
@@ -237,7 +239,7 @@ img.icon-self-care {
 }
 
 .prev-hours {
-  color: hsl(236deg, 100%, 87%);
+  color: #bdc1ff;
 }
 
 @media (min-width: 870px) {
@@ -266,14 +268,14 @@ img.icon-self-care {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: hsl(246deg, 80%, 60%);
+  background-color: #5847eb;
   z-index: 2;
 }
 
 .profile img {
   border-radius: 100%;
   margin: 2rem 1rem 2rem 2rem;
-  border: 3px solid hsl(0deg, 100%, 100%);
+  border: 3px solid white;
   width: 4rem;
 }
 
@@ -284,19 +286,19 @@ img.icon-self-care {
 }
 
 .title-name .title {
-  color: hsl(236deg, 100%, 87%);
+  color: #bdc1ff;
   padding-bottom: 0.25rem;
 }
 
 .title-name .name {
-  color: hsl(0deg, 100%, 100%);
+  color: white;
 }
 
 .time-frame-box {
   display: flex;
   align-items: flex-end;
   margin-top: -1.375rem;
-  background-color: hsl(235deg, 46%, 20%);
+  background-color: #1c1f4a;
   z-index: 1;
 }
 
@@ -309,17 +311,17 @@ img.icon-self-care {
 .time-frame a {
   padding: 0.3rem;
   width: 33%;
-  color: hsl(235deg, 45%, 61%);
+  color: #6f76c8;
   text-decoration: none;
 }
 
 .time-frame a:hover {
-  color: hsl(0deg, 100%, 100%);
+  color: white;
   transition: 0.3s;
 }
 
 .time-frame .selected {
-  color: hsl(0deg, 100%, 100%);
+  color: white;
 }
 
 @media (min-width: 375px) {
