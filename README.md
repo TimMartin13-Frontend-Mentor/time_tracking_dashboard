@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/scss-javascript-html-qo2zJ3MxFo)
-- Live Site URL: [Github pages](https://timmartin13.github.io/time_tracking_dashboard/)
+- Live Site URL: [Github pages](https://timmartin13-frontend-mentor.github.io/time_tracking_dashboard/)
 
 ## My process
 
