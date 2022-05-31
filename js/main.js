@@ -14,19 +14,12 @@ const prevSocial = document.querySelector(".prev-social");
 const currSelfCare = document.querySelector(".curr-self-care");
 const prevSelfCare = document.querySelector(".prev-self-care");
 
+import data from '../data.json' assert { type: 'json' };
 
-// Get the json data
 async function getInfo() {
-  fetch("../data.json")
-  .then(response => {
-    return response.json();
-  })
-  .then(data => 
-    {
-      dailyInfo(data);
-      weeklyInfo(data);
-      monthlyInfo(data);
-  });
+  dailyInfo(data);
+  weeklyInfo(data);
+  monthlyInfo(data);
 }
   
 function dailyInfo(resData) {
